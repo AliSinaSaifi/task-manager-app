@@ -18,19 +18,9 @@ A simple **Task Manager API** built using **Node.js**, **Express.js**, and **Mon
 - **MongoDB & Mongoose** - NoSQL Database
 - **dotenv** - Environment variable management
 - **Middleware** for error handling
-
----
-API Routes
-Method	Endpoint	Description
-GET	/api/v1/tasks	Get all tasks
-GET	/api/v1/tasks/:id	Get a single task
-POST	/api/v1/tasks	Create a new task
-PATCH	/api/v1/tasks/:id	Update a task
-DELETE	/api/v1/tasks/:id	Delete a task
 ---
 
 ## Installation
 Create a .env file and add your MongoDB connection string:
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
-
